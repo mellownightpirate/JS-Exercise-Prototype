@@ -114,10 +114,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global binding - a singular instance of declaration where any other declarations must be declared or they inherity by the superseding instance.
+  2. Implicit binding - when dot notation is used to invoke a function. This is automatic binding.
+  3. Explicit binding - We can tell a function what the value of 'this' should be using call (requires arguments to be passed individually), apply (requires arguments to be passed as an array) or bind (stores the value of this for later (when the function is called)). 
+  4. New binding - refers to the new object being created allowing for pseudoclassical inheritance.
 */
 
 
